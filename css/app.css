@@ -23,7 +23,13 @@ pre.prettyprint {
 .classes,
 .packaging,
 .hierarchy,
-.application {
+.application,
+.dinamic,
+.modelintro,
+.inlinedata,
+.ordergroup,
+.proxies,
+.asociaciones {
   text-align: center;
 }
 
@@ -49,7 +55,13 @@ pre.prettyprint {
 .hierarchy p,
 .application p,
 .helloworld p,
-.intro p {
+.intro p,
+.dinamic p,
+.modelintro p,
+.inlinedata p,
+.ordergroup p,
+.proxies p,
+.asociaciones p {
     color: #666;
     margin: 40px auto;
     width: 80%;
@@ -73,18 +85,21 @@ pre.prettyprint {
     margin-top: 40px;
 }
 
-.hierarchy div.list {
+.hierarchy div.list,
+.modelintro div.list {
     margin: 40px auto;
     width: 60%;
 }
 
-.hierarchy div.list ul {
+.hierarchy div.list ul,
+.modelintro div.list ul {
     text-align: left;
     color: #666;
 }
 
-.hierarchy div.list ul li {
-    list-style: initial;
+.hierarchy div.list ul li,
+.modelintro div.list ul li {
+    list-style: inherit;
 }
 
 .blog p {
@@ -97,6 +112,28 @@ pre.prettyprint {
 @media screen and (max-width: 800px) {
     .webstandards p,
     .touchdevices p,
+    .phonegap p,img
+    .dataintegration p,
+    .classes p,
+    .packaging p,
+    .hierarchy p,
+    .application p,
+    .helloworld p,
+    .intro p,
+    .dinamic p,
+    .modelintro p,
+    .inlinedata p,
+    .ordergroup p,
+    .proxies p,
+    .asociaciones p {           
+        font-size: 1.2em;
+        line-height: 1.1em;        
+    }  
+}
+
+@media screen and (max-width: 1366px) {
+    .webstandards p,
+    .touchdevices p,
     .phonegap p,
     .dataintegration p,
     .classes p,
@@ -104,8 +141,28 @@ pre.prettyprint {
     .hierarchy p,
     .application p,
     .helloworld p,
-    .intro p {           
-        font-size: 1.2em;
-        line-height: 1.1em;        
-    }  
+    .intro p,
+    .dinamic p,
+    .modelintro p,
+    .inlinedata p,
+    .ordergroup p,
+    .proxies p,
+    .asociaciones p {           
+        font-size: 1.4em;
+        line-height: 1.2em;        
+    }
+    
+    #mainview img.open-phoenix,
+    #mainview img.delirium-coder {
+        width: 300px;
+    }
+    
+    #mainview img.sencha {
+        width: 180px;
+    }
+    
+    .modelintro div img {
+        width: 400px;
+        margin: 0 auto;
+    }
 }

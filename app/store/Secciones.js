@@ -72,8 +72,25 @@
                         text: 'Models y Stores',
                         view: 'ModelStore',
                         items: [{
+                            text: 'Introducción',
+                            view: 'ModelIntro',
+                            leaf: true
+                        }, {
                             text: 'Inline Data',
                             view: 'InlineData',
+                            leaf: true
+                        }, {
+                            text: 'Ordenación y Agrupado',
+                            view: 'OrderGrouping',
+                            leaf: true
+                        }, {
+                            text: 'Proxies',
+                            leaf: true
+                        }, {
+                            text: 'Asociaciones',
+                            leaf: true
+                        }, {
+                            text: 'Validadores',
                             leaf: true
                         }]
                     }]

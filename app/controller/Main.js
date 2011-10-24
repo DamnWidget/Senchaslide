@@ -12,7 +12,18 @@ Ext.define('Senchaslide.controller.Main', {
         'WebStandards',
         'NativePackaging',
         'DataIntegration',
-        'Classes'
+        'Classes',
+        'ClassesIntro',
+        'Application',
+        'Hierarchy',
+        'HelloWorld',
+        'DinamicLoad',
+        'NamingConventions',
+        'ModelIntro',
+        'InlineData',
+        'OrderGrouping',
+        'Proxies',
+        'Asociaciones'
         //'NestedList'
     ],
     
@@ -59,6 +70,42 @@ Ext.define('Senchaslide.controller.Main', {
             },
             
             '#viewClassesIntro': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewDinamicLoad': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewNamingConventions': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewInlineData': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewOrderGrouping': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewProxies': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewAsociaciones': {
                 show: function() {
                     window.prettyPrint();
                 }

@@ -35,14 +35,15 @@ if (Ext.os.deviceType == 'Phone') {
             items: [{
                 id: 'mainview',
                 cls: 'mainview',
+                scrollable: true,
                 html: [                    
-                    '<img src="media/sencha.png" />',
+                    '<img class="sencha" src="media/sencha.png" />',
                     '<h1>Conociendo Sencha Touch</h1>',
                     '<p>Una introducción al framework de desarrollo de aplicaciones web basado en ',
                     'los estándares web HTML5 y CSS3</p>',
                     '<h2>Por Oscar Campos - Open Phoenix IT - Delirium Coder</h2><br />',
-                    '<p><img src="media/open-phoenix.png" width="400px"/></p>',
-                    '<p><img src="media/dc.png" width="400px" /></p>',
+                    '<p><img class="open-phoenix" src="media/open-phoenix.png" width="400px"/></p>',
+                    '<p><img class="delirium-coder" src="media/dc.png" width="400px" /></p>',
                     '<p>Twitter: <a href="http://twitter.com/damnwidget">@damnwidget</a></p>'
                 ].join("")
             }, {
