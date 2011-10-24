@@ -23,8 +23,12 @@ Ext.define('Senchaslide.controller.Main', {
         'InlineData',
         'OrderGrouping',
         'Proxies',
-        'Asociaciones'
-        //'NestedList'
+        'Asociaciones',
+        'Validadores',
+        'ViewIntro',
+        'ControllerIntro',
+        'Empaquetado',
+        'Preguntas'        
     ],
     
     stores: ['Secciones'],
@@ -106,6 +110,18 @@ Ext.define('Senchaslide.controller.Main', {
             },
             
             '#viewAsociaciones': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewValidadores': {
+                show: function() {
+                    window.prettyPrint();
+                }
+            },
+            
+            '#viewControllerIntro': {
                 show: function() {
                     window.prettyPrint();
                 }

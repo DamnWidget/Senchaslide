@@ -96,18 +96,22 @@
                     }]
                 }, {
                     text: 'View',
-                    leaf: true
+                    view: 'ViewIntro',
+                    leaf: true                    
                 }, {
                     text: 'Controller',
+                    view: 'ControllerIntro',
                     leaf: true
                 }]
             }]
         }, {
             text: 'Empaquetado',
-            cls: 'empaquetado'
+            cls: 'empaquetado',
+            leaf: true
         }, {
             text: 'Preguntas',
-            cls: 'preguntas'
+            cls: 'preguntas',
+            leaf: true
         }]
     };   
     
