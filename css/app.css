@@ -1,0 +1,111 @@
+a {
+    color: #8f9814;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+pre.prettyprint {
+    max-width: 900px;
+    margin: 10px 0 14px 10%;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border: solid 1px #b4b4b4;
+    text-align: left;
+}
+
+.mainview, 
+.preguntas, 
+.webstandards, 
+.touchdevices,
+.phonegap,
+.dataintegration,
+.classes,
+.packaging,
+.hierarchy,
+.application {
+  text-align: center;
+}
+
+.mainview h1, 
+.webstandards h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.mainview p {
+  color: #666;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  margin: 10px 20px 20px 20px;
+}
+
+.webstandards p,
+.touchdevices p,
+.phonegap p,
+.dataintegration p,
+.classes p,
+.packaging p,
+.hierarchy p,
+.application p,
+.helloworld p,
+.intro p {
+    color: #666;
+    margin: 40px auto;
+    width: 80%;
+    font-size: 1.8em;
+    line-height: 1.6em;
+    text-align: left;    
+}
+
+.mainview h2 {
+    color: #8f9814;
+    font-size: 1em;
+}
+
+.webstandards div img,
+.touchdevices div img,
+.phonegap div img,
+.dataintegration div img,
+.classes div img,
+.packaging div img,
+.hierarchy div img {
+    margin-top: 40px;
+}
+
+.hierarchy div.list {
+    margin: 40px auto;
+    width: 60%;
+}
+
+.hierarchy div.list ul {
+    text-align: left;
+    color: #666;
+}
+
+.hierarchy div.list ul li {
+    list-style: initial;
+}
+
+.blog p {
+    color: #555;
+    padding: 20px 20px 0 20px;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+@media screen and (max-width: 800px) {
+    .webstandards p,
+    .touchdevices p,
+    .phonegap p,
+    .dataintegration p,
+    .classes p,
+    .packaging p,
+    .hierarchy p,
+    .application p,
+    .helloworld p,
+    .intro p {           
+        font-size: 1.2em;
+        line-height: 1.1em;        
+    }  
+}

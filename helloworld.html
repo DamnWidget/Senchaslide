@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>                    
+        <script type="text/javascript" src="lib/touch/sencha-touch-all.js"></script>
+        <link rel="stylesheet" href="lib/touch/resources/css/sencha-touch.css" type="text/css">
+        
+        <script type="text/javascript">
+            new Ext.application({
+                name: "Hello World",
+                
+                launch: function() {
+                    Ext.create("Ext.TabPanel", {
+                        fullscreen: true,
+                        dockedItems: [{                            
+                            xtype: "toolbar",
+                            title: "Hello World!",
+                            dock: 'bottom'
+                        }],
+                        
+                        items: [{
+                            title: "Hello",
+                            html: "This is a Hello"
+                        }, {
+                            title: "World",
+                            html: "World application"
+                        }],                        
+                        
+                        styleHtmlContent: true
+                    });
+                }
+            });
+        </script>
+        
+    </head>
+    <body></body>
+</html>
